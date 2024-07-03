@@ -43,12 +43,12 @@ sleep(2)
 # digitar login
 login = driver.find_element(By.XPATH, '//input[@type="text"]')
 sleep(1)
-digitar_naturalmente('15997213342', login)
+digitar_naturalmente('', login)
 sleep(1)
 # digitar senha
 senha = driver.find_element(By.XPATH, '//input[@type="password"]')
 sleep(1)
-digitar_naturalmente('96536264hugo', senha)
+digitar_naturalmente('', senha)
 sleep(1)
 # clicar em fazer login
 botao_login = driver.find_element(By.XPATH, '//button[@value="1"]')

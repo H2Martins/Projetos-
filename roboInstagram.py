@@ -9,12 +9,12 @@ while True:
     # entar com meu usuarioGostei demais!
     pyautogui.click(880, 292, duration=1)
     sleep(1)
-    pyautogui.typewrite('h2robsbot')
+    pyautogui.typewrite('')
     sleep(1)
     # entrar com senha
     pyautogui.press('tab')
     sleep(1)
-    pyautogui.typewrite('96536264gael')
+    pyautogui.typewrite('')
     sleep(2)
     pyautogui.click(903, 380, duration=1)
     sleep(3.5)
@@ -40,12 +40,12 @@ while True:
         # caso nao esteja curtido, curtir e comentar algo
         if coracao_vasio is not None:
             sleep(0.5)
-            pyautogui.click(936,556, duration=1)
+            pyautogui.click(936, 556, duration=1)
             sleep(3)
         # adicionar um comentario
-            pyautogui.click(975,557, duration=1)
+            pyautogui.click(975, 557, duration=1)
             sleep(2.6)
-            pyautogui.click(985,644, duration=1)
+            pyautogui.click(985, 644, duration=1)
             sleep(1.5)
             pyautogui.typewrite('Gostei demais!')
             sleep(3)
